@@ -97,7 +97,7 @@ function displaySpecificImage() {
     const specificImage = document.getElementById('specific-image');
 
     // Set the source of the image to the file in the images folder
-    specificImage.src = 'images/delete_windows.webp';
+    specificImage.src = '/images/delete_windows.webp';
 
     // Make the specific image visible
     specificImage.style.display = 'block';
